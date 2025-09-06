@@ -53,3 +53,19 @@ class OnlinePurchase:
 
 
 if __name__ == "__main__":
+    compra = OnlinePurchase()
+    cart = {
+
+        "Mouse":-1,
+        "Webcam":3
+           
+            }
+    cupon = "DISCOUNT10"
+    address = "Playa linda 333"
+
+    ayuda = compra.process_purchase(cart,cupon,address)
+    
+    print(ayuda)
+
+    print("END")
+

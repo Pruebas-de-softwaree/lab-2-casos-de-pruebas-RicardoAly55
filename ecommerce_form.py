@@ -60,8 +60,8 @@ if __name__ == "__main__":
         "Webcam":3
            
             }
-    cupon = "DISCOUNT10"
-    address = "Play"
+    cupon = ""
+    address = "Playa linda 333"
 
     ayuda = compra.process_purchase(cart,cupon,address)
     
